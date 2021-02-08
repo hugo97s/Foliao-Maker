@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C1072EE25D173E1001E3066 /* foliaomakerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1072ED25D173E1001E3066 /* foliaomakerApp.swift */; };
+		2C1072F025D173E1001E3066 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1072EF25D173E1001E3066 /* ContentView.swift */; };
+		2C1072F225D173E3001E3066 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1072F125D173E3001E3066 /* Assets.xcassets */; };
+		2C1072F525D173E3001E3066 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1072F425D173E3001E3066 /* Preview Assets.xcassets */; };
+		2C1072F725D173E3001E3066 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1072F625D173E3001E3066 /* Persistence.swift */; };
+		2C1072FA25D173E3001E3066 /* foliaomaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C1072F825D173E3001E3066 /* foliaomaker.xcdatamodeld */; };
+		2C10730525D173E3001E3066 /* foliaomakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10730425D173E3001E3066 /* foliaomakerTests.swift */; };
+		2C10731025D173E3001E3066 /* foliaomakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10730F25D173E3001E3066 /* foliaomakerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C10730125D173E3001E3066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1072E225D173E1001E3066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1072E925D173E1001E3066;
+			remoteInfo = foliaomaker;
+		};
+		2C10730C25D173E3001E3066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1072E225D173E1001E3066 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1072E925D173E1001E3066;
+			remoteInfo = foliaomaker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C1072EA25D173E1001E3066 /* foliaomaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foliaomaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1072ED25D173E1001E3066 /* foliaomakerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foliaomakerApp.swift; sourceTree = "<group>"; };
+		2C1072EF25D173E1001E3066 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C1072F125D173E3001E3066 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C1072F425D173E3001E3066 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C1072F625D173E3001E3066 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2C1072F925D173E3001E3066 /* foliaomaker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = foliaomaker.xcdatamodel; sourceTree = "<group>"; };
+		2C1072FB25D173E3001E3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C10730025D173E3001E3066 /* foliaomakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foliaomakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C10730425D173E3001E3066 /* foliaomakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foliaomakerTests.swift; sourceTree = "<group>"; };
+		2C10730625D173E3001E3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C10730B25D173E3001E3066 /* foliaomakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foliaomakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C10730F25D173E3001E3066 /* foliaomakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foliaomakerUITests.swift; sourceTree = "<group>"; };
+		2C10731125D173E3001E3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C1072E725D173E1001E3066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1072FD25D173E3001E3066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C10730825D173E3001E3066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C1072E125D173E1001E3066 = {
+			isa = PBXGroup;
+			children = (
+				2C1072EC25D173E1001E3066 /* foliaomaker */,
+				2C10730325D173E3001E3066 /* foliaomakerTests */,
+				2C10730E25D173E3001E3066 /* foliaomakerUITests */,
+				2C1072EB25D173E1001E3066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C1072EB25D173E1001E3066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1072EA25D173E1001E3066 /* foliaomaker.app */,
+				2C10730025D173E3001E3066 /* foliaomakerTests.xctest */,
+				2C10730B25D173E3001E3066 /* foliaomakerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C1072EC25D173E1001E3066 /* foliaomaker */ = {
+			isa = PBXGroup;
+			children = (
+				2C1072ED25D173E1001E3066 /* foliaomakerApp.swift */,
+				2C1072EF25D173E1001E3066 /* ContentView.swift */,
+				2C1072F125D173E3001E3066 /* Assets.xcassets */,
+				2C1072F625D173E3001E3066 /* Persistence.swift */,
+				2C1072FB25D173E3001E3066 /* Info.plist */,
+				2C1072F825D173E3001E3066 /* foliaomaker.xcdatamodeld */,
+				2C1072F325D173E3001E3066 /* Preview Content */,
+			);
+			path = foliaomaker;
+			sourceTree = "<group>";
+		};
+		2C1072F325D173E3001E3066 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C1072F425D173E3001E3066 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C10730325D173E3001E3066 /* foliaomakerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C10730425D173E3001E3066 /* foliaomakerTests.swift */,
+				2C10730625D173E3001E3066 /* Info.plist */,
+			);
+			path = foliaomakerTests;
+			sourceTree = "<group>";
+		};
+		2C10730E25D173E3001E3066 /* foliaomakerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C10730F25D173E3001E3066 /* foliaomakerUITests.swift */,
+				2C10731125D173E3001E3066 /* Info.plist */,
+			);
+			path = foliaomakerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C1072E925D173E1001E3066 /* foliaomaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C10731425D173E3001E3066 /* Build configuration list for PBXNativeTarget "foliaomaker" */;
+			buildPhases = (
+				2C1072E625D173E1001E3066 /* Sources */,
+				2C1072E725D173E1001E3066 /* Frameworks */,
+				2C1072E825D173E1001E3066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foliaomaker;
+			productName = foliaomaker;
+			productReference = 2C1072EA25D173E1001E3066 /* foliaomaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C1072FF25D173E3001E3066 /* foliaomakerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C10731725D173E3001E3066 /* Build configuration list for PBXNativeTarget "foliaomakerTests" */;
+			buildPhases = (
+				2C1072FC25D173E3001E3066 /* Sources */,
+				2C1072FD25D173E3001E3066 /* Frameworks */,
+				2C1072FE25D173E3001E3066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C10730225D173E3001E3066 /* PBXTargetDependency */,
+			);
+			name = foliaomakerTests;
+			productName = foliaomakerTests;
+			productReference = 2C10730025D173E3001E3066 /* foliaomakerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C10730A25D173E3001E3066 /* foliaomakerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C10731A25D173E3001E3066 /* Build configuration list for PBXNativeTarget "foliaomakerUITests" */;
+			buildPhases = (
+				2C10730725D173E3001E3066 /* Sources */,
+				2C10730825D173E3001E3066 /* Frameworks */,
+				2C10730925D173E3001E3066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C10730D25D173E3001E3066 /* PBXTargetDependency */,
+			);
+			name = foliaomakerUITests;
+			productName = foliaomakerUITests;
+			productReference = 2C10730B25D173E3001E3066 /* foliaomakerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C1072E225D173E1001E3066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					2C1072E925D173E1001E3066 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					2C1072FF25D173E3001E3066 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2C1072E925D173E1001E3066;
+					};
+					2C10730A25D173E3001E3066 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2C1072E925D173E1001E3066;
+					};
+				};
+			};
+			buildConfigurationList = 2C1072E525D173E1001E3066 /* Build configuration list for PBXProject "foliaomaker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C1072E125D173E1001E3066;
+			productRefGroup = 2C1072EB25D173E1001E3066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C1072E925D173E1001E3066 /* foliaomaker */,
+				2C1072FF25D173E3001E3066 /* foliaomakerTests */,
+				2C10730A25D173E3001E3066 /* foliaomakerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C1072E825D173E1001E3066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1072F525D173E3001E3066 /* Preview Assets.xcassets in Resources */,
+				2C1072F225D173E3001E3066 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1072FE25D173E3001E3066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C10730925D173E3001E3066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C1072E625D173E1001E3066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1072F725D173E3001E3066 /* Persistence.swift in Sources */,
+				2C1072F025D173E1001E3066 /* ContentView.swift in Sources */,
+				2C1072FA25D173E3001E3066 /* foliaomaker.xcdatamodeld in Sources */,
+				2C1072EE25D173E1001E3066 /* foliaomakerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1072FC25D173E3001E3066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C10730525D173E3001E3066 /* foliaomakerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C10730725D173E3001E3066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C10731025D173E3001E3066 /* foliaomakerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C10730225D173E3001E3066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1072E925D173E1001E3066 /* foliaomaker */;
+			targetProxy = 2C10730125D173E3001E3066 /* PBXContainerItemProxy */;
+		};
+		2C10730D25D173E3001E3066 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1072E925D173E1001E3066 /* foliaomaker */;
+			targetProxy = 2C10730C25D173E3001E3066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C10731225D173E3001E3066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C10731325D173E3001E3066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C10731525D173E3001E3066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"foliaomaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = foliaomaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.foliaomaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C10731625D173E3001E3066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"foliaomaker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = foliaomaker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.foliaomaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C10731825D173E3001E3066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foliaomakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.foliaomakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foliaomaker.app/foliaomaker";
+			};
+			name = Debug;
+		};
+		2C10731925D173E3001E3066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foliaomakerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.foliaomakerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foliaomaker.app/foliaomaker";
+			};
+			name = Release;
+		};
+		2C10731B25D173E3001E3066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foliaomakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.foliaomakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = foliaomaker;
+			};
+			name = Debug;
+		};
+		2C10731C25D173E3001E3066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = foliaomakerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Academy.foliaomakerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = foliaomaker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C1072E525D173E1001E3066 /* Build configuration list for PBXProject "foliaomaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C10731225D173E3001E3066 /* Debug */,
+				2C10731325D173E3001E3066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C10731425D173E3001E3066 /* Build configuration list for PBXNativeTarget "foliaomaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C10731525D173E3001E3066 /* Debug */,
+				2C10731625D173E3001E3066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C10731725D173E3001E3066 /* Build configuration list for PBXNativeTarget "foliaomakerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C10731825D173E3001E3066 /* Debug */,
+				2C10731925D173E3001E3066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C10731A25D173E3001E3066 /* Build configuration list for PBXNativeTarget "foliaomakerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C10731B25D173E3001E3066 /* Debug */,
+				2C10731C25D173E3001E3066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C1072F825D173E3001E3066 /* foliaomaker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C1072F925D173E3001E3066 /* foliaomaker.xcdatamodel */,
+			);
+			currentVersion = 2C1072F925D173E3001E3066 /* foliaomaker.xcdatamodel */;
+			path = foliaomaker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C1072E225D173E1001E3066 /* Project object */;
+}
