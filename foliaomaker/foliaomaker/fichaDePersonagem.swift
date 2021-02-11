@@ -28,30 +28,49 @@ struct fichaDePersonagem: View {
     
     @State var itensPochete: Int = 0
     
+    @State var slot1 = "slot vazio"
+    @State var slot2 = "slot vazio"
+    @State var slot3 = "slot vazio"
+    @State var slot4 = "slot vazio"
+    @State var slot5 = "slot vazio"
+    @State var slot6 = "slot vazio"
+    
     var body: some View {
         
         
         ScrollView(.vertical){
             VStack {
-                Group {
-                    HStack {
-                        Text("Nome do Jaca")
-                            .font(.title)
-                            .fontWeight(.heavy)
-                            .multilineTextAlignment(.center)
-                            .position(x: 100, y:50)
-                            .frame(width: 180, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        ZStack{
-                            Image("jacarelio")
-                                .resizable()
-                                .frame(width: 208.5, height: 266.5, alignment: .center)
-                                .position(x: 85, y: 105)
+                                Group {
+                    ZStack {
+                        HStack {
                             
-                            
-                            
+                            Text("Nome do Jaca")
+                                .font(.title)
+                                .fontWeight(.heavy)
+                                .multilineTextAlignment(.center)
+                                .position(x: 100, y: 80)
+                                .frame(width: 180, height: 100, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            ZStack{
+                                Image("jacarelio")
+                                    .resizable()
+                                    .frame(width: 208.5, height: 266.5, alignment: .center)
+                                    .position(x: 85, y: 105)
+                                
+                                
+                            }
                         }
+                        .padding([.top, .leading, .trailing])
+                        Button(action: {
+                            
+                        }) {
+                            Image("retorno")
+                                .resizable()
+                                .frame(width: 35, height: 38.1663974167, alignment: .center)
+                                .position(x: 40, y: 27)
+                                
+                        }
+
                     }
-                    .padding([.top, .leading, .trailing])
                 }
                 
                 Text("Distribui os pontos e define tuas características! ")
@@ -749,29 +768,222 @@ struct fichaDePersonagem: View {
                 }
                 .padding(.top)
                 
+                Text("O que tu vai levar na pochete?")
+                    .multilineTextAlignment(.center)
+                    .padding(.top)
+                    .frame(width: 300, height: /*@START_MENU_TOKEN@*/43/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                
                 Group {
                     ZStack {
-                        Image("POCHETE")
-                            .resizable()
-                            .frame(width: 380, height: 216.2068965487, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                        Group{
+                            Image("POCHETE")
+                                .resizable()
+                                .frame(width: 380, height: 216.2068965487, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            
+                            Text("POCHETE")
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                                .multilineTextAlignment(.center)
+                                .padding()
+                                .frame(width: 203, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .leading)
+                                .multilineTextAlignment(.center)
+                                .position(x: 200, y: 15)
+                            Text("Itens: \(itensPochete)/4")
+                                .font(.body)
+                                .padding(.trailing)
+                                .frame(width: /*@START_MENU_TOKEN@*/106/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .trailing)
+                                .position(x: 350, y: 15)
+                            Text("Chave")
+                                .font(.system(size: 12))
+                                .padding(.trailing)
+                                .frame(width: /*@START_MENU_TOKEN@*/106/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .center)
+                                .position(x: 107.5, y: 130)
+                            Text("Cigarro")
+                                .font(.system(size: 12))
+                                .padding(.trailing)
+                                .frame(width: /*@START_MENU_TOKEN@*/106/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .center)
+                                .position(x: 217, y: 130)
+                            Text("Vem")
+                                .font(.system(size: 12))
+                                .padding(.trailing)
+                                .frame(width: /*@START_MENU_TOKEN@*/106/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .center)
+                                .position(x: 322.5, y: 130)
+                            Text("Brisadeiro")
+                                .font(.system(size: 12))
+                                .padding(.trailing)
+                                .frame(width: /*@START_MENU_TOKEN@*/106/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .center)
+                                .position(x: 107.5, y: 217.5)
+                            Text("Apito")
+                                .font(.system(size: 12))
+                                .padding(.trailing)
+                                .frame(width: /*@START_MENU_TOKEN@*/106/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .center)
+                                .position(x: 217, y: 217.5)
+                            Text("Isqueiro")
+                                .font(.system(size: 12))
+                                .padding(.trailing)
+                                .frame(width: /*@START_MENU_TOKEN@*/106/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .center)
+                                .position(x: 322.5, y: 217.5)
+                        }
+                        Group {
+                            Image("\(slot1)")
+                                .resizable()
+                                .frame(width: 60, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .position(x: 100, y: 92.5)
+                            Image("\(slot2)")
+                                .resizable()
+                                .frame(width: 60, height: 60, alignment: .center)
+                                .position(x: 207.5, y: 92.5)
+                            Image("\(slot3)")
+                                .resizable()
+                                .frame(width: 60, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .position(x: 315, y: 92.5)
+                            Image("\(slot4)")
+                                .resizable()
+                                .frame(width: 60, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .position(x: 100, y: 180)
+                            Image("\(slot5)")
+                                .resizable()
+                                .frame(width: 60, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .position(x: 207.5, y: 180)
+                            Image("\(slot6)")
+                                .resizable()
+                                .frame(width: 60, height: 60, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                .position(x: 315, y: 180)
+                        }
                         
-                        Text("POCHETE")
-                            .font(.title2)
-                            .fontWeight(.semibold)
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .frame(width: 203, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .leading)
-                            .multilineTextAlignment(.center)
-                            .position(x: 200, y: 15)
-                        Text("Itens: \(itensPochete)/3")
-                            .font(.body)
-                            .padding(.trailing)
-                            .frame(width: /*@START_MENU_TOKEN@*/106/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/30/*@END_MENU_TOKEN@*/, alignment: .trailing)
-                            .position(x: 350, y: 15)
+                        Group {
+                            
+                            Button(action: {
+                                if slot1 == "slot vazio" && itensPochete < 4 {
+                                    slot1 = "slot selecionado"
+                                    itensPochete += 1
+                                }
+                                else if slot1 == "slot vazio" && itensPochete == 4 {
+                                    
+                                    print("acabou boy")
+                                }
+                                else {
+                                    slot1 = "slot vazio"
+                                    itensPochete -= 1
+                                }
+                            }) {
+                                Image("chave")
+                                    .resizable()
+                                    .frame(width: 40, height: 29.4623655909, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            }.position(x: 100, y: 92.5)
+                            Button(action: {
+                                if slot2 == "slot vazio" && itensPochete < 4 {
+                                    slot2 = "slot selecionado"
+                                    itensPochete += 1
+                                }
+                                else if slot2 == "slot vazio" && itensPochete == 4 {
+                                    
+                                    print("acabou boy")
+                                }
+                                else {
+                                    slot2 = "slot vazio"
+                                    itensPochete -= 1
+                                }
+                            }) {
+                                Image("cigarro")
+                                    .resizable()
+                                    .frame(width: 65, height: 41.8761061946, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            }.position(x: 215, y: 85)
+                            Button(action: {
+                                if slot3 == "slot vazio" && itensPochete < 4 {
+                                    slot3 = "slot selecionado"
+                                    itensPochete += 1
+                                }
+                                else if slot3 == "slot vazio" && itensPochete == 4 {
+                                    
+                                    print("acabou boy")
+                                }
+                                else {
+                                    slot3 = "slot vazio"
+                                    itensPochete -= 1
+                                }
+                            }) {
+                                Image("vem")
+                                    .resizable()
+                                    .frame(width: 50, height: 28.0590717302, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            }.position(x: 315, y: 92.5)
+                            Button(action: {
+                                if slot4 == "slot vazio" && itensPochete < 4 {
+                                    slot4 = "slot selecionado"
+                                    itensPochete += 1
+                                }
+                                else if slot4 == "slot vazio" && itensPochete == 4 {
+                                    
+                                    print("acabou boy")
+                                }
+                                else {
+                                    slot4 = "slot vazio"
+                                    itensPochete -= 1
+                                }
+                            }) {
+                                Image("brisadeiro")
+                                    .resizable()
+                                    .frame(width: 40, height: 35.4362416104, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            }.position(x: 100, y: 180)
+                            Button(action: {
+                                if slot5 == "slot vazio" && itensPochete < 4 {
+                                    slot5 = "slot selecionado"
+                                    itensPochete += 1
+                                }
+                                else if slot5 == "slot vazio" && itensPochete == 4 {
+                                    
+                                    print("acabou boy")
+                                }
+                                else {
+                                    slot5 = "slot vazio"
+                                    itensPochete -= 1
+                                }
+                            }) {
+                                Image("apito")
+                                    .resizable()
+                                    .frame(width: 45, height: 30.7394366192, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            }.position(x: 207.5, y: 180)
+                            Button(action: {
+                                if slot6 == "slot vazio" && itensPochete < 4 {
+                                    slot6 = "slot selecionado"
+                                    itensPochete += 1
+                                }
+                                else if slot6 == "slot vazio" && itensPochete == 4 {
+                                    
+                                    print("acabou boy")
+                                }
+                                else {
+                                    slot6 = "slot vazio"
+                                    itensPochete -= 1
+                                }
+                            }) {
+                                Image("isqueiro")
+                                    .resizable()
+                                    .frame(width: 14, height: 51.1617647071, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                            }.position(x: 315, y: 180)
+                            
+                        }
                     }
                     
+                    
+                    
                 }
-                
+                HStack {
+                    Button(action: {
+                        
+                    }) {
+                        Image("salvar")
+                            .resizable()
+                            .frame(width: 175, height: 56.2056737583, alignment: .leading)
+                    }
+                    Button(action: {
+                        
+                    }) {
+                        Image("compartilhar")
+                            .resizable()
+                            .frame(width: 175, height: 56.2056737583, alignment: .trailing)
+                    }
+                }
             }
             
             
