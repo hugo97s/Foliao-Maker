@@ -13,7 +13,7 @@ struct foliaomakerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CharacterView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

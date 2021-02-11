@@ -21,6 +21,8 @@
 		2C93D42F25D5A8EE005F37E1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D42E25D5A8EE005F37E1 /* File.swift */; };
 		2C93D43425D5A980005F37E1 /* OnboardingViewPure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D43325D5A980005F37E1 /* OnboardingViewPure.swift */; };
 		2C93D43F25D5ADDD005F37E1 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D43E25D5ADDD005F37E1 /* ViewRouter.swift */; };
+		2C93D44925D5CEBE005F37E1 /* CharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D44825D5CEBE005F37E1 /* CharacterView.swift */; };
+		2C93D45125D5CEFE005F37E1 /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D45025D5CEFE005F37E1 /* TextFieldClearButton.swift */; };
 		E5811F0E25D40EF2009BC8D1 /* progressBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5811F0D25D40EF2009BC8D1 /* progressBarTest.swift */; };
 		E5C9A47025D3193E00BD0B0A /* fichaDePersonagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9A46F25D3193E00BD0B0A /* fichaDePersonagem.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +65,8 @@
 		2C93D42E25D5A8EE005F37E1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		2C93D43325D5A980005F37E1 /* OnboardingViewPure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPure.swift; sourceTree = "<group>"; };
 		2C93D43E25D5ADDD005F37E1 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		2C93D44825D5CEBE005F37E1 /* CharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterView.swift; sourceTree = "<group>"; };
+		2C93D45025D5CEFE005F37E1 /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
 		E5811F0D25D40EF2009BC8D1 /* progressBarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressBarTest.swift; sourceTree = "<group>"; };
 		E5C9A46F25D3193E00BD0B0A /* fichaDePersonagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fichaDePersonagem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				2C1072ED25D173E1001E3066 /* foliaomakerApp.swift */,
+				2C93D44825D5CEBE005F37E1 /* CharacterView.swift */,
+				2C93D45025D5CEFE005F37E1 /* TextFieldClearButton.swift */,
 				2C1072EF25D173E1001E3066 /* ContentView.swift */,
 				E5C9A46F25D3193E00BD0B0A /* fichaDePersonagem.swift */,
 				E5811F0D25D40EF2009BC8D1 /* progressBarTest.swift */,
@@ -308,7 +314,9 @@
 				2C93D42225D5A7F0005F37E1 /* OnboardingStepView.swift in Sources */,
 				E5C9A47025D3193E00BD0B0A /* fichaDePersonagem.swift in Sources */,
 				2C93D42A25D5A85D005F37E1 /* SceneDelegate.swift in Sources */,
+				2C93D45125D5CEFE005F37E1 /* TextFieldClearButton.swift in Sources */,
 				2C93D43F25D5ADDD005F37E1 /* ViewRouter.swift in Sources */,
+				2C93D44925D5CEBE005F37E1 /* CharacterView.swift in Sources */,
 				2C1072F725D173E3001E3066 /* Persistence.swift in Sources */,
 				2C1072F025D173E1001E3066 /* ContentView.swift in Sources */,
 				2C93D42F25D5A8EE005F37E1 /* File.swift in Sources */,
