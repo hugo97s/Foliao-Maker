@@ -15,6 +15,8 @@
 		2C1072FA25D173E3001E3066 /* foliaomaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C1072F825D173E3001E3066 /* foliaomaker.xcdatamodeld */; };
 		2C10730525D173E3001E3066 /* foliaomakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10730425D173E3001E3066 /* foliaomakerTests.swift */; };
 		2C10731025D173E3001E3066 /* foliaomakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10730F25D173E3001E3066 /* foliaomakerUITests.swift */; };
+		E5811F0E25D40EF2009BC8D1 /* progressBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5811F0D25D40EF2009BC8D1 /* progressBarTest.swift */; };
+		E5C9A47025D3193E00BD0B0A /* fichaDePersonagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9A46F25D3193E00BD0B0A /* fichaDePersonagem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2C10730B25D173E3001E3066 /* foliaomakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foliaomakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C10730F25D173E3001E3066 /* foliaomakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foliaomakerUITests.swift; sourceTree = "<group>"; };
 		2C10731125D173E3001E3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5811F0D25D40EF2009BC8D1 /* progressBarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressBarTest.swift; sourceTree = "<group>"; };
+		E5C9A46F25D3193E00BD0B0A /* fichaDePersonagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fichaDePersonagem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				2C1072ED25D173E1001E3066 /* foliaomakerApp.swift */,
 				2C1072EF25D173E1001E3066 /* ContentView.swift */,
+				E5C9A46F25D3193E00BD0B0A /* fichaDePersonagem.swift */,
+				E5811F0D25D40EF2009BC8D1 /* progressBarTest.swift */,
 				2C1072F125D173E3001E3066 /* Assets.xcassets */,
 				2C1072F625D173E3001E3066 /* Persistence.swift */,
 				2C1072FB25D173E3001E3066 /* Info.plist */,
@@ -265,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C9A47025D3193E00BD0B0A /* fichaDePersonagem.swift in Sources */,
 				2C1072F725D173E3001E3066 /* Persistence.swift in Sources */,
 				2C1072F025D173E1001E3066 /* ContentView.swift in Sources */,
 				2C1072FA25D173E3001E3066 /* foliaomaker.xcdatamodeld in Sources */,
+				E5811F0E25D40EF2009BC8D1 /* progressBarTest.swift in Sources */,
 				2C1072EE25D173E1001E3066 /* foliaomakerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
