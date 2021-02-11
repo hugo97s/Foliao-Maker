@@ -415,7 +415,7 @@ struct fichaDePersonagem: View {
                             }) {
                                 Image("remover ponto")
                                     .resizable()
-                                    .frame(width: 25, height: 25, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    .frame(width: 25, height: 25, alignment: .center)
                                 
                                 
                             }

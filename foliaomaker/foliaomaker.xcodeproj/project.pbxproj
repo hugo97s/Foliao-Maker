@@ -15,6 +15,12 @@
 		2C1072FA25D173E3001E3066 /* foliaomaker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C1072F825D173E3001E3066 /* foliaomaker.xcdatamodeld */; };
 		2C10730525D173E3001E3066 /* foliaomakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10730425D173E3001E3066 /* foliaomakerTests.swift */; };
 		2C10731025D173E3001E3066 /* foliaomakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C10730F25D173E3001E3066 /* foliaomakerUITests.swift */; };
+		2C93D41525D5A78B005F37E1 /* OnboardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D41425D5A78B005F37E1 /* OnboardingDataModel.swift */; };
+		2C93D42225D5A7F0005F37E1 /* OnboardingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D42125D5A7F0005F37E1 /* OnboardingStepView.swift */; };
+		2C93D42A25D5A85D005F37E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D42925D5A85D005F37E1 /* SceneDelegate.swift */; };
+		2C93D42F25D5A8EE005F37E1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D42E25D5A8EE005F37E1 /* File.swift */; };
+		2C93D43425D5A980005F37E1 /* OnboardingViewPure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D43325D5A980005F37E1 /* OnboardingViewPure.swift */; };
+		2C93D43F25D5ADDD005F37E1 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C93D43E25D5ADDD005F37E1 /* ViewRouter.swift */; };
 		E5811F0E25D40EF2009BC8D1 /* progressBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5811F0D25D40EF2009BC8D1 /* progressBarTest.swift */; };
 		E5C9A47025D3193E00BD0B0A /* fichaDePersonagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9A46F25D3193E00BD0B0A /* fichaDePersonagem.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +57,12 @@
 		2C10730B25D173E3001E3066 /* foliaomakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foliaomakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C10730F25D173E3001E3066 /* foliaomakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foliaomakerUITests.swift; sourceTree = "<group>"; };
 		2C10731125D173E3001E3066 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C93D41425D5A78B005F37E1 /* OnboardingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDataModel.swift; sourceTree = "<group>"; };
+		2C93D42125D5A7F0005F37E1 /* OnboardingStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStepView.swift; sourceTree = "<group>"; };
+		2C93D42925D5A85D005F37E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C93D42E25D5A8EE005F37E1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		2C93D43325D5A980005F37E1 /* OnboardingViewPure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPure.swift; sourceTree = "<group>"; };
+		2C93D43E25D5ADDD005F37E1 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		E5811F0D25D40EF2009BC8D1 /* progressBarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressBarTest.swift; sourceTree = "<group>"; };
 		E5C9A46F25D3193E00BD0B0A /* fichaDePersonagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fichaDePersonagem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +122,8 @@
 				2C1072F125D173E3001E3066 /* Assets.xcassets */,
 				2C1072F625D173E3001E3066 /* Persistence.swift */,
 				2C1072FB25D173E3001E3066 /* Info.plist */,
+				2C93D44325D5AE0E005F37E1 /* Class */,
+				2C93D41325D5A763005F37E1 /* Onboarding */,
 				2C1072F825D173E3001E3066 /* foliaomaker.xcdatamodeld */,
 				2C1072F325D173E3001E3066 /* Preview Content */,
 			);
@@ -120,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				2C1072F425D173E3001E3066 /* Preview Assets.xcassets */,
+				2C93D42E25D5A8EE005F37E1 /* File.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,6 +155,25 @@
 				2C10731125D173E3001E3066 /* Info.plist */,
 			);
 			path = foliaomakerUITests;
+			sourceTree = "<group>";
+		};
+		2C93D41325D5A763005F37E1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2C93D41425D5A78B005F37E1 /* OnboardingDataModel.swift */,
+				2C93D42125D5A7F0005F37E1 /* OnboardingStepView.swift */,
+				2C93D42925D5A85D005F37E1 /* SceneDelegate.swift */,
+				2C93D43325D5A980005F37E1 /* OnboardingViewPure.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		2C93D44325D5AE0E005F37E1 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2C93D43E25D5ADDD005F37E1 /* ViewRouter.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,12 +305,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C93D42225D5A7F0005F37E1 /* OnboardingStepView.swift in Sources */,
 				E5C9A47025D3193E00BD0B0A /* fichaDePersonagem.swift in Sources */,
+				2C93D42A25D5A85D005F37E1 /* SceneDelegate.swift in Sources */,
+				2C93D43F25D5ADDD005F37E1 /* ViewRouter.swift in Sources */,
 				2C1072F725D173E3001E3066 /* Persistence.swift in Sources */,
 				2C1072F025D173E1001E3066 /* ContentView.swift in Sources */,
+				2C93D42F25D5A8EE005F37E1 /* File.swift in Sources */,
 				2C1072FA25D173E3001E3066 /* foliaomaker.xcdatamodeld in Sources */,
 				E5811F0E25D40EF2009BC8D1 /* progressBarTest.swift in Sources */,
+				2C93D43425D5A980005F37E1 /* OnboardingViewPure.swift in Sources */,
 				2C1072EE25D173E1001E3066 /* foliaomakerApp.swift in Sources */,
+				2C93D41525D5A78B005F37E1 /* OnboardingDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
