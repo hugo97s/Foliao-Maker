@@ -139,14 +139,20 @@ struct CharacterView: View {
                     }
                     
                 
-    
-                Button(action: {
-                    print("Criar Ficha button pressed")
-                    
-                }) {
-                    Image("criarButton")
-                        .renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original))
-                }
+                    NavigationLink(
+                        destination: fichaDePersonagem(),
+                        label: {
+                            Image("criarButton")
+//                                .renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original))
+                            
+                        })
+//                Button(action: {
+//                    print("Criar Ficha button pressed")
+//
+//                }) {
+//                    Image("criarButton")
+//                        .renderingMode(Image.TemplateRenderingMode?.init(Image.TemplateRenderingMode.original))
+//                }
                 Spacer()
                     .frame(height:15)
                 
